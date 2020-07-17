@@ -1,0 +1,39 @@
+body,html{
+    padding: none;
+    margin: none;
+}
+body{
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    transform: translate(-50%,-50%);
+    box-shadow: black 5px 5px 15px 8px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+input{
+    display: block;
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+    width: 300px;
+}
+button{
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+}
+button:hover{
+    color: darkcyan;
+    border: 2px solid darkcyan;
+    background-color: white;
+}

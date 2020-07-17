@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Doctor's Dashboard</title>
+        <link href="styles/dctrdash.css" type="text/css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+        <div class="sidebar">
+            <header>My App</header>
+            <ul>
+                <li><button onclick="changer('dashboard')">Dashboard</button></li>
+                <li><button onclick="changer('chanellings')">Channelling</button></li>
+                <li><button onclick="changer('patienthis')">Patient History</button></li>
+                <li><button onclick="changer('addpdata')">Add patient Data</button></li>
+                <li><button onclick="changer('Chanellingcancels')">Channelling Cancellation</button></li>
+                <li><button onclick="changer('publicdta')">My Public Data</button></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div id="dashboard" style="display: none;"></div>
+            <div id="chanellings" style="display: none;"></div>
+            <div id="patienthis" style="display: none;"></div>
+            <div id="addpdata" style="display: none;"></div>
+            <div id="Chanellingcancels" style="display: none;"></div>
+            <div id="publicdta" style="display: none;">
+                <div class="formation" >
+                    <img src="styles/images/bg-1.jpg" class="logpic" height="200" width="200">
+                    <h1>Change Your Data</h1>
+                    <input type="text" placeholder="name"><br>
+                    <input type="text" placeholder="Qualifications"><br>
+                    <input type="text" placeholder="Specialities"><br>
+                    <input type="tel" placeholder="Contact No"><br>
+                    <input type="email" placeholder="email"><br>
+                    change image<input type="file" ><br>
+                    <input type="checkbox">Publish Contact No
+                    <input type="checkbox">publish E-mail<br>
+                    <button>Change</button>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+        var cont = ['dashboard','chanellings','patienthis','addpdata','Chanellingcancels','publicdta'];
+        function changer(value){
+            for(var i = 0 ; i < cont.length ; i++){
+                var dc = cont[i];
+                document.getElementById(dc).style.display = "none";
+            }
+            document.getElementById(value).style.display = "block";
+        }
+        </script>
+    </body>
+</html>

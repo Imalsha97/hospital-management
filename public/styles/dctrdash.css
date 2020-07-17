@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+}
+body{
+    background-image: url("images/bg.jpg");
+}
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #042331;
+}
+.main{
+    position: fixed;
+    width: calc(100% - 250px);
+    right: 0;
+    height:100%;
+}
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #063146;
+    user-select: none;
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left:30px ;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255,0.1);
+    border-bottom: 1px solid black;
+    transition: .6s;
+}
+ul li:hover a{
+    padding-left: 50px;
+}
+.sidebar ul button{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    background-color: #042331;
+    color: white;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255,0.1);
+    border-bottom: 1px solid black;
+    transition: .6s;
+}
+ul li:hover button{
+    padding-left: 50px;
+}
+.logpic{
+    border-radius: 100px;
+    margin:10px;
+    border: 1px slateblue double;
+}
+.formation{
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255,0.3);
+}
+input{
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+    transition: .6s;
+}
+input:hover{
+    padding: 10px;
+    border-bottom: 2px solid #026492;
+}
+.formation button{
+    padding: 10px;
+    margin: 5px;
+    font-size: 18px;
+    border: none;
+    background-color: #063146;
+    color: #ffffff;
+    transition: .6s;
+}
+.formation button:hover{
+    border: 2px solid #063146;
+    background-color: #ffffff;
+    color: #063146;
+    padding: 13px;
+}
+#publicdta{
+    transition: .6s;
+}
