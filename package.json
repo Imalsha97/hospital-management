@@ -1,0 +1,26 @@
+{
+  "name": "hospitalmanagement",
+  "version": "1.0.0",
+  "description": "Hospital management system for paperless service",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Imalsha97/hospital-management.git"
+  },
+  "author": "Gayantha,Imalsha,Dulanjana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Imalsha97/hospital-management/issues"
+  },
+  "homepage": "https://github.com/Imalsha97/hospital-management#readme",
+  "dependencies": {
+    "cookies": "^0.8.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "formidable": "^1.2.2",
+    "sqlite3": "^5.0.0"
+  }
+}
