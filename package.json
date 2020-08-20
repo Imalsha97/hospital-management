@@ -18,9 +18,11 @@
   "homepage": "https://github.com/Imalsha97/hospital-management#readme",
   "dependencies": {
     "cookies": "^0.8.0",
+    "crypto": "^1.0.1",
     "express": "^4.17.1",
     "express-session": "^1.17.1",
     "formidable": "^1.2.2",
+    "path": "^0.12.7",
     "sqlite3": "^5.0.0"
   }
 }
