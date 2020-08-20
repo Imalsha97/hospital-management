@@ -19,7 +19,7 @@ app.set('views',path.join(__dirname,'views'));
 app.set('view engine','ejs');
 
 app.get('/',(req,res)=>{
-    res.render('login');//this is only for temporary. this is home page
+    res.render('myweb2');//this is only for temporary. this is home page
 })
 
 app.get('/register',(req,res)=>{
